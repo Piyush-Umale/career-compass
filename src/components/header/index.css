@@ -1,0 +1,37 @@
+nav {
+  padding: 8px;
+  height: 85px;
+
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 120' preserveAspectRatio='none'><defs><linearGradient id='a9' x1='0' x2='0' y1='80' y2='120' gradientUnits='userSpaceOnUse'><stop stop-color='%230C4441' offset='0' stop-opacity='.5'/><stop stop-color='%230C4441' offset='1' stop-opacity='0'/></linearGradient><linearGradient id='b9' x1='0' x2='0' y1='40' y2='0' gradientUnits='userSpaceOnUse'><stop stop-color='%230C4441' offset='0' stop-opacity='.5'/><stop stop-color='%230C4441' offset='1' stop-opacity='0'/></linearGradient></defs><rect fill='%23D6EEF9' width='100%' height='120'/><path fill='url(%23a9)' d='M500 80C224 80 0 96 0 120h1000c0-24-224-40-500-40Z'/><path fill='url(%23b9)' d='M500 40c276 0 500-20 500-40H0c0 20 224 40 500 40Z'/></svg>") no-repeat center;
+
+  background-size: 100% 100%;
+}
+
+.nav-logo{
+  max-width: 210px;   
+  height: auto;       
+  object-fit: contain; 
+  display: block;    
+  margin-left: 11px;
+}
+
+ul{
+    /* background-color: yellowgreen; */
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.logout-btn{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 3%;
+}

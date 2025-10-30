@@ -1,0 +1,99 @@
+.filter-ulist {
+  /* list-style: none; */
+  margin: 0;
+  background-color: violet;
+  padding-left: 10px;
+  /* border: 1px solid green; */
+  display: flex !important;          /* force flex, override Bootstrap */
+  flex-direction: column !important;
+  align-items: flex-start;                       
+}
+
+.filter-list {
+  display: flex;
+  align-items: center;   /* centers checkbox with text */
+  gap: 8px;
+}
+
+.filter-list label {
+  white-space: nowrap;   
+}
+
+.filters-group-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background-color: yellowgreen;
+  height: 100%;
+}
+
+.filter-heading{
+  margin: 0;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  /* margin-bottom: 5px; */
+}
+
+.filters-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  margin-left: 10px;
+}
+
+.filters-list-item {
+  display: flex;
+  align-items: center;
+    
+}
+  
+.salary-range-checkbox {
+  width: 11px;
+  height: 11px;
+  /* accent-color: #b6c5ff; */
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-salaryid {
+  /* color: #000000; */
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: 400;
+   
+
+}
+
+.profile-details {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/profile-bg.png);
+  background-size: cover;
+  padding: 10px;
+  /* height: 33.33%; */
+  border-radius: 30px 30px 15px 15px;
+  /* height: 135px; */
+}
+
+.profile-image {
+  width: 58px;
+  /* height: 60px; */
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  color: #6366f1;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.profile-bio {
+  font-family: 'Roboto';
+  color: #2c3643;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
