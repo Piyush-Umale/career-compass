@@ -4,7 +4,7 @@
     padding: 10px;
     color: black;
     /* background-color: yellow; */
-    background: linear-gradient(135deg, #00ACC1, #00796B);
+    /* background: linear-gradient(135deg, #00ACC1, #00796B); */
     display: flex;
     flex-direction: column;
 }

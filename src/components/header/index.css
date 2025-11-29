@@ -32,6 +32,6 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    right: 3%;
+    /* position: relative;
+    right: 3%; */
 }

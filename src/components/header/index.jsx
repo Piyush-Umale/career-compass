@@ -23,18 +23,15 @@ const Header = ()=>{
          
                 <ul style={{listStyle : "none"}} >
                 <li>
-                    <Link to = "/" className='btn btn-info'>Home</Link>
+                    <Link to = "/" className='home-btn btn btn-info'>Home</Link>
                 </li>
 
                 <li>
-                    <Link to =  "/jobs" className='btn btn-info'> Jobs</Link>
+                    <Link to =  "/jobs" className='jobs-btn btn btn-info'> Jobs</Link>
                 </li>
 
-            </ul> 
-            
-
                 <div className='logout-btn'><button onClick={tokenremove} className = 'btn btn-primary'>Logout</button></div>
-
+                </ul>
 
         </nav>
     )

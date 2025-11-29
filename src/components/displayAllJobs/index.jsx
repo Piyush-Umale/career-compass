@@ -15,7 +15,7 @@ const DisplayAllJobs = (props)=>{
         <Link to= {`/jobs/${jobsItems.id}`} className='job-card-link'>
 
             
-            <li className='ul-jobs-li w-100 border border-danger rounded p-2'> 
+            <li className='ul-jobs-li w-100 rounded p-2'> 
 
                     <div className='d-flex '>
                         <img src={jobsItems.company_logo_url} width = "55 px" height={"55px"} />
