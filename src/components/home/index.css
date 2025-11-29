@@ -17,3 +17,19 @@ html, body {
   flex-direction: column;
 }
 
+.home-pg-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.p-home{
+  color: black;
+  font-size: 15px;
+}
+
+.home-content{
+  padding: 50px;
+ 
+}

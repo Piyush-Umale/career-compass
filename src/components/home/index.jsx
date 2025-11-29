@@ -12,17 +12,18 @@ const Home = ()=>{
     return(
         <div className='home-pg'>
         <Header/>
-
+        
+        <div className='home-content'>
         <br /><br />
 
-        <div style={{height:"80vh"}} className='w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
+        <div style={{height:"80vh"}} className='home-pg-div w-100 h-100'>
 
         <h1>Discover Your Next Career Move</h1>
-        <p>At CareerCompass, we help you find jobs that align with your passion, skills, and future goals. 
-        Explore thousands of opportunities across industries and locations.</p>
-        <button>Find Jobs</button>
+        <p className='p-home'>At CareerCompass, we help you find jobs that align with your passion, 
+            <br />skills, and future goals. 
+        Explore thousands of opportunities 
+        <br />across industries and locations.</p>
 
-        <br /><br />
 
         <Link to = "/jobs"  className='btn btn-info'>Find Jobs</Link>
 
@@ -30,6 +31,7 @@ const Home = ()=>{
 
         
         
+        </div>
         </div>
     )
 }
