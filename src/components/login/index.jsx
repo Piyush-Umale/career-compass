@@ -132,9 +132,9 @@ const onSubmitUserDetails = async(e)=>{
               </a>
             </div>
             <span>or use your account</span>
-            <input type="text" placeholder="Username" 
+            <input type="text" placeholder="rahul" 
             onChange={(e)=>{setValues({...allValues,username : e.target.value})}}/>
-            <input type="password" placeholder="Password" 
+            <input type="password" placeholder="rahul@2021" 
             onChange={(e)=>{setValues({...allValues,password : e.target.value})}}/>
             {/* <a href="#">Forgot your password?</a> */}
             <br />
