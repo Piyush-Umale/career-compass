@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Cookies from 'js-cookie';
 
 
@@ -74,12 +74,10 @@ const onSubmitUserDetails = async(e)=>{
       <div
         className={`container ${isRightPanelActive ? "right-panel-active" : ""}`}
       >
-        {/* Sign Up Section*/}
         <div className="form-container sign-up-container">
           <form  action="#">
 
           <div className='logo-cont'>
-           {/* Logo */}
            <img 
               src="/logos/careerCompass_logo.png" 
               alt="CareerCompass Logo" 
@@ -107,11 +105,9 @@ const onSubmitUserDetails = async(e)=>{
           </form>
         </div>
 
-        {/* Sign In Section*/}
         <div className="form-container sign-in-container">
           <form onSubmit={onSubmitUserDetails} action="#">
             <div className='logo-cont'>
-           {/* Logo */}
            <img 
               src="/logos/careerCompass_logo.png" 
               alt="CareerCompass Logo" 
@@ -129,20 +125,18 @@ const onSubmitUserDetails = async(e)=>{
               </a>
               <a href="#" className="social">
                 <i className="fab fa-linkedin-in"></i>
-              </a>
+              </a> 
             </div>
             <span>or use your account</span>
             <input type="text" placeholder="rahul" 
             onChange={(e)=>{setValues({...allValues,username : e.target.value})}}/>
             <input type="password" placeholder="rahul@2021" 
             onChange={(e)=>{setValues({...allValues,password : e.target.value})}}/>
-            {/* <a href="#">Forgot your password?</a> */}
             <br />
             <button type="submit">Sign In</button>
           </form>
         </div>
 
-        {/* Overlay sliding cont*/}
         <div className="overlay-container">
           <div className="overlay">
             <div className="overlay-panel overlay-left">
@@ -177,28 +171,6 @@ const onSubmitUserDetails = async(e)=>{
     </div>
   );
 };
-
-
-
-
-//     return(
-//         <div className='login-cont'>
-//         <form className='w-50 p-3 border border-danger'>
-//   <div className="form-group">
-//     <label for="exampleInputEmail1">Username</label>
-//     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-//     <small id="emailHelp" className="form-text text-muted">We'll never share your details with anyone else.</small>
-//   </div>
-//   <div class="form-group">
-//     <label for="exampleInputPassword1">Password</label>
-//     <input type="password" className="form-control" id="exampleInputPassword1"/>
-//     </div>
-//         <button type="submit" className="btn btn-primary">Submit</button>
-//     </form>
-// </div>
-        
-//     )
- 
 
 export default Login;
 

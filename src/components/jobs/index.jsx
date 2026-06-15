@@ -62,9 +62,6 @@ const Jobs = ()=>{
 
      const onSearchJob = (e)=>{
 
-        // let filtered = allValues.jobsArr.filter(job => job.title.toLowerCase().includes(e.target.value.toLowerCase()));
-        // let updatedJobs;
-
         if(e.target.value !== "") {
 
             if(e.target.value === allValues.userInput){
@@ -74,7 +71,6 @@ const Jobs = ()=>{
             }
             else{
                 if(e.key === "Enter") {
-                    // Non-empty search: update userInput to typed keyword
                     setValues({ ...allValues,userInput: e.target.value });
                 }
             }
@@ -82,43 +78,24 @@ const Jobs = ()=>{
         }
         else {
             if(e.key === "Enter") {
-                // Empty search: reset userInput to trigger fetch for all jobs
                 setValues({...allValues,userInput: "" });
             }
         }           
 
-
-        // if(e.target.value !== ""){
-
-        //     if(e.key === "Enter"){
-
-
-        //         setValues({...allValues,userInput : e.target.value});
-
-        //     }
-        // }else{
-
-        // }
-        
      }
 
      const onChangeEmpType = (value,ischecked)=>{
 
         if( ischecked ){
-            //add to arr
-
             setValues({...allValues,empType : [...allValues.empType,value]});
         }
         else{
-            //remove from arr
-
             setValues({...allValues,empType : allValues.empType.filter(e=> e !== value)});
         }
 
      }
 
      const onChangeSalaryRange = (e)=>{
-
             setValues({...allValues,salaryRange : e.target.value})
 
      }

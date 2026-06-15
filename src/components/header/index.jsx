@@ -18,7 +18,6 @@ const Header = ()=>{
         <nav className='d-flex justify-content-between '>
 
            
-            {/* <Link to ="/" className = 'text-danger'>Jobby App</Link> */}
             <img className='nav-logo' src="/logos/careerCompass_logo2.png" alt="career compass logo" />
          
                 <ul style={{listStyle : "none"}} >
