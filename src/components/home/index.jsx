@@ -16,7 +16,7 @@ const Home = ()=>{
         <div className='home-content'>
         <br /><br />
 
-        <div style={{height:"80vh"}} className='home-pg-div w-100 h-100'>
+        <div style={{height:"80vh"}} className='home-pg-div  h-100'>
 
         <h1>Discover Your Next Career Move</h1>
         <p className='p-home'>At CareerCompass, we help you find jobs that align with your passion, 
@@ -27,6 +27,10 @@ const Home = ()=>{
 
         <Link to = "/jobs"  className='btn btn-info'>Find Jobs</Link>
 
+        </div>
+
+        <div className='home-illustration'>
+            <img src="/images/Homeillustration1.png" alt="" />
         </div>
 
         

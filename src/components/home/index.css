@@ -13,10 +13,41 @@ html, body {
   background-size: cover;
   min-height: 100vh; 
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+.home-content{
+  display: flex;
+  /* background-color: yellowgreen; */
+  /* background-color: #F5F8FE; */
+  /* border: 1px solid black; */
+  height: 50vh;
+  width: 97vw;
+  /* justify-self: center; */
+}
+
+.home-illustration{
+  width: 70%;
+  /* background-color: bisque; */
+  /* padding: 20px; */
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-pg-div{
+  /* background-color: #F5F8FE; */
+  width: 40%;
+  /* height: 40%; */
+}
+.home-illustration img{
+  height: max-content;
+  width: 470px;
+
+}
 .home-pg-div{
   display: flex;
   flex-direction: column;
